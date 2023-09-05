@@ -1,7 +1,5 @@
-// Require the product objects from the products.js module
 const products = require('./products');
 
-// Create a function to search for a product by name
 function searchProductByName(productName) {
     const product = products.find(product => product.name === productName);
 
@@ -14,7 +12,6 @@ function searchProductByName(productName) {
     }
 }
 
-// Call the function with different product names
 searchProductByName("Milk");
 searchProductByName("Mango");
 searchProductByName("Salt");

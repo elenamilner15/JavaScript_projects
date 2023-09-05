@@ -1,6 +1,5 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-// Function to read the content of a specified file
 export function readFile(filename) {
     try {
         const content = readFileSync(filename, 'utf8');
@@ -11,7 +10,6 @@ export function readFile(filename) {
     }
 }
 
-// Function to write content to a specified file
 export function writeFile(filename, content) {
     try {
         writeFileSync(filename, content);
