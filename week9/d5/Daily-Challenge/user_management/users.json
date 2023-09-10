@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Elena",
+    "lastName": "Milner",
+    "email": "elenamilner15@gmail.com",
+    "username": "elenamilner",
+    "password": "$2b$10$/jxoUtJctj/PEU2xvxtTnutMReeSqxePwu7nED/tv1DurPJhENBxS"
+  },
+  {
+    "id": 2,
+    "name": "Elena2",
+    "lastName": "Milner",
+    "email": "elena2milner15@gmail.com",
+    "username": "elenamilner2",
+    "password": "$2b$10$kXg6HUiSh5qU.WV8iKdOMej7IjZx5xcKyPt.oi1WTW0l2KOD1atcG"
+  }
+]
