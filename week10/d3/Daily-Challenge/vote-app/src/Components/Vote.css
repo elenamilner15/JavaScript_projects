@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.vote-container {
+    width: 400px;
+
+}
+
+.language {
+    background-color: #ffebcd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #222;
+    padding: 10px 40px;
+    margin: 2px;
+}
+
+
+.names {
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.button {
+    background: none;
+    border: none;
+    color: green;
+    cursor: pointer;
+    font-size: inherit;
+}
