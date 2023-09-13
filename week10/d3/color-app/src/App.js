@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Color from './Components/Color'; // Import the Color component
+import Color from './Components/Color';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Color /> {/* Render the Color component */}
+        <Color />
       </header>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Vote from './Components/Vote'; // Import the Vote component
+import Vote from './Components/Vote';
 
 function App() {
   return (
     <div className="App">
-      <Vote /> {/* Use the Vote component */}
+      <Vote />
     </div>
   );
 }
