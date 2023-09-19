@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+}
+
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #007bff;
+
+}
+
+h1 {
+  font-size: 24px;
+  margin: 120px 20px;
+  text-align: left;
+}
