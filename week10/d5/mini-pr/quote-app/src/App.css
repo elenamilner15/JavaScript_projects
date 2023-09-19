@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box {
+  position: relative;
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px;
+
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote {
+  align-self: flex-start;
+}
+
+.button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.author {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 40px;
+}
